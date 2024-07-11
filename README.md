@@ -443,7 +443,30 @@
     * Transformer ： 李宏毅和李沐
     * BERT: 李沐
   * 实践环节
-    * 继续理解李沐 attenion分数 部分的代码
+    * 继续理解李沐 attention分数 部分的代码
 
 
 
+#### 2024-07-12 星期四
+
+* 学习内容
+  * 理论环节
+    * 李沐: Transformer、BERT(大致了解)
+    * 李宏毅: Transformer
+  * 实践环节
+    * attention 注意力分数代码逐行理解、运行及分析(加性注意力 & 点积注意力， 遮蔽softmax)
+* 主要收获
+  * Transformer？
+    * 多头注意力, 可以类比为CNN中的多通道
+    * norm是层归一化
+  * BERT？
+    * BERT是一个预训练模型结构， 采用了Transformer 的解码器架构
+  * Attention scores？
+    * **点积注意力** 更适合高维向量，计算效率更高，广泛应用于现代深度学习模型
+    * **加性注意力** 更灵活，可以捕捉复杂的非线性关系，但计算开销较大，适用于低维向量或需要更复杂关系的场景
+    * **mask-softmax** 屏蔽了无效字段的分数
+* 存在问题
+  * Transformer 的层归一化没太仔细理解
+  * BERT只是大概了解了一些设计过程， 但印象不深刻， 待完全熟悉Transformer 后再仔细解读
+* 明日计划
+  * 实践环节: self-attention 、Transformer 代码逐行阅读理解及注解修改等 

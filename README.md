@@ -953,3 +953,41 @@
   * 统计学习： 朴素贝叶斯、决策树 (数学原理+从零实现)
   * 数据科学入门:  统计知识部分
   * 数据结构: 简介  、线性表
+
+
+
+### 第六周
+
+#### 2024-07-24 星期二
+
+* 学习内容
+  * 理论环节
+    * 数据结构
+      * 简介部分学习， 最长子序列和
+      * 线性表: 顺序表、链表
+    * 统计学习方法-李航： 第4章朴素贝叶斯
+    * 数据挖掘: 数据挖掘的数据预处理
+  * 实践环节
+    * 顺序表的C++从零实现
+* 主要收获
+  * 顺序表的C++从零实现?
+    * conda 安装 xeus-cling， 可以在jupyter 中编写C++代码， 详细教程参考:  [这里](https://blog.csdn.net/qq_20084101/article/details/89494474?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7EPaidSort-1-89494474-blog-129502675.235%5Ev43%5Epc_blog_bottom_relevance_base2&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7EPaidSort-1-89494474-blog-129502675.235%5Ev43%5Epc_blog_bottom_relevance_base2&utm_relevant_index=1)
+    * 回顾C的一些基本语法知识， 包括结构体定义、动态空间申请等
+  * 数据相似性?
+    * 简单匹配
+    * 闵可夫斯基距离
+      * 曼哈顿距离(p = 1)
+      * 欧式距离(p = 2)
+      * 上确界距离(p = ∞)
+    * 余弦相似性(点积)
+  * 数据集成
+    * 将不同来源的数据进行汇总
+  * 数据清洗
+    * 缺失、异常(比如离群点)、 不一致性(不同属性或者说特征之间) 等
+  * 朴素贝叶斯
+    * 学习对象是X 和 Y 的联合分布
+    * 对特征之间做了独立性假设
+* 明日计划
+  * 统计学习: 朴素贝叶斯
+  * 数据结构: 树
+  * 数据科学入门:  统计知识部分

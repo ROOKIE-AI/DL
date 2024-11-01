@@ -1,0 +1,27 @@
+# 基本机器学习库  
+numpy  
+pandas  
+scikit-learn  
+scipy  
+
+# 深度学习库    
+torch       # PyTorch，可能需要使用 pip install torch torchvision  
+torchvision
+keras  
+
+# 数据可视化  
+matplotlib  
+seaborn  
+plotly  
+
+# 日志库  
+loguru        # 方便的日志记录库  
+
+# 进度条库  
+tqdm    
+
+# 其他实用库  
+d2l
+statsmodels   # 统计建模  
+xgboost       # XGBoost  
+lightgbm      # LightGBM  
